@@ -1,0 +1,178 @@
+{
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 16,
+    "editor.renderWhitespace": "none",
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+    "aspnetcorerazor": "html",
+    },
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/.vs": true,
+        "**/.history": true,
+        "**/.npm-cache": true,
+        "**/DependencyInjection": true,
+        "**/EPiServer.Reference.Commerce.Manager": true,
+        "**/Hornby.Ax.PaymentConnector": true,
+        "**/Hornby.Azure.Connectors": true,
+        "**/Hornby.Azure.Core": true,
+        "**/Hornby.Azure.Functions": true,
+        "**/Hornby.Azure.Services": true,
+        "**/Hornby.Azure.UnitTests": true,
+        "**/Hornby.Data": true,
+        "**/Hornby.IntegrationTests": true,
+        "**/Hornby.Migration": true,
+        "**/Hornby.Migration.Core": true,
+        "**/Hornby.Migration.Episerver": true,
+        "**/Hornby.Migration.ImporterConsole": true,
+        "**/Hornby.Migration.IntegrationServices": true,
+        "**/Hornby.Migration.MySql": true,
+        "**/Hornby.Migration.UnitTests": true,
+        "**/Hornby.Payments.Braintree": true,
+        "**/Hornby.UnitTests": true,
+        "**/Hornby.WebApplication/.npm-cache": true,
+        "**/Hornby.WebApplication/App_Data": true,
+        "**/Hornby.WebApplication/ClientResources": true,
+        "**/Hornby.WebApplication/bin": true,
+        "**/IdentityProviderTestHarness": true,
+        "**/MVCForum.Integrate": true,
+        "**/MvcForum.IntegrationTests": true,
+        "**/Hornby.Core": true,
+        "**/MvcForum.Plugins": true
+    },
+    "editor.lineHeight": 24,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "eslint.alwaysShowStatus": true,
+    "eslint.enable": true,
+    "eslint.autoFixOnSave": true,
+    "editor.tokenColorCustomizations": {
+        "[Atom One Dark]": {
+            "textMateRules": [
+                {
+                    "scope": "variable",
+                    "settings": {
+                        "foreground": "#dddddd",
+                        
+                    }
+                },
+                {
+                    "scope": ["string.unquoted.label.js",
+                            "constant.other.object.key.js",
+                            "keyword.operator.accessor.js",
+                            "meta.property.object.js",
+                            "variable.other.readwrite.js",
+                            "support.type.object.console.js"],
+                    "settings": {
+                        "foreground": "#dddddd",
+                    }
+                },
+                {
+                    "scope": ["variable.function.js",
+                            "meta.function-call.method.with-arguments.js",
+                            "entity.name.function.js",
+                            "support.function.builtin.js"],
+                    "settings": {
+                        "foreground": "#61AFEF",
+                    }
+                },
+                {
+                    "scope": ["variable.language.this.js", 
+                            "keyword.operator.arithmetic.js",
+                            "keyword.operator.assignment.js",
+                            "keyword.operator.relational.js",
+                            "keyword.operator.ternary.js",
+                            "keyword.operator.anchor.js",
+                            "keyword.operator.other.js",
+                            "keyword.control.conditional.js",
+                            "keyword.control.flow.js",
+                            "keyword.operator.logical.js",
+                            "keyword.operator.comparison.js",
+                            "storage.type.function.js",
+                            "support.function.console.js",
+                            "meta.function.js",
+                            "storage.type.js",
+                            "keyword.operator.js",
+                            "keyword.operator.module.js",
+                            "variable.language.super.js"
+                    ],
+                    "settings": {
+                        "foreground": "#C678DD",
+                    }
+                },
+                {
+                    "scope": ["variable.parameter.function.js"],
+                    "settings": {
+                        "foreground": "#D19A66",
+                    }
+                },
+                {
+                    "scope": ["support.type.object.dom.js",
+                    "support.class.builtin.js",
+                "variable.other.class.js"],
+                    "settings": {
+                        "foreground": "#e5C07B",
+                    }
+                },
+                {
+                    "scope": ["string.quoted.js"],
+                    "settings": {
+                        "foreground": "#98C379",
+                    }
+                }
+                // string.quoted.js
+            ]
+        }
+    },
+ 
+    "workbench.tree.indent": 20,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.maxColumn": 200,
+    "editor.minimap.showSlider": "always",
+    "workbench.colorCustomizations" : {
+        
+        "terminal.foreground" : "#FFF",
+        "terminal.background" : "#171b22",
+        "editor.background": "#212731",
+        "activityBar.background": "#212731",
+        "sideBar.background": "#212731",
+        "sideBarSectionHeader.background": "#171b22",
+        "editorGroup.border": "#9e375d",
+        "editorGroup.dropBackground": "#9e375d",
+        "editorGroupHeader.tabsBorder": "#9e375d",
+        "editor.tabSize": 8,
+        "tab.activeBackground": "#212731",
+        "tab.activeBorder": "#212731",
+        "tab.inactiveBackground": "#171b22",
+        "editorLineNumber.activeForeground": "#9e375d",
+        "editorCursor.foreground": "#9e375d",
+        "editorCursor.background": "#9e375d",
+        // "editor.wordHighlightBackground": "#9e375d",
+        "sideBarSectionHeader.foreground": "#B73E6B",
+        "activityBarBadge.foreground": "#9e375d",
+        "badge.background":"#9e375d",
+        "panel.background":"#171b22",
+        "panel.border": "#9e375d",
+        "statusBar.background": "#171b22",
+        "titleBar.activeBackground":"#212731",
+        "menu.background": "#171b22",
+        "breadcrumbPicker.background":"#9e375d"
+    },
+    "workbench.colorTheme": "Atom One Dark",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDelete": false,
+    "editor.minimap.enabled": true,
+    "breadcrumbs.enabled": true,
+    "editor.renderControlCharacters": true,
+    "window.menuBarVisibility": "default",
+    "window.zoomLevel": 0,
+    "csharp.format.enable": false,
+    "files.autoSave": "off",
+    "explorer.confirmDragAndDrop": false,
+    "git.autofetch": true,
+    "highlight-matching-tag.enabled": true,
+    "terminal.integrated.rendererType": "dom",
+    "javascript.updateImportsOnFileMove.enabled": "always"
+    
+}
